@@ -2,6 +2,17 @@
 
 Python 3.7 <br/>
 pipenv
+pip 18.0
+
+### Notable Errors 
+There appear to be a bug (TypeError: 'module' object is not callable) with pipenv with pip 18.1 at the time of testing. If you encounter this
+exception you can update the pipenv pip version
+
+`pipenv run pip install pip==18.0`
+
+And confirm 
+
+`pipenv run pip --version`
 
 ## Install Dependencies and Create Virtual Environment
 
