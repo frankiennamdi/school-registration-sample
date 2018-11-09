@@ -12,7 +12,7 @@ pipenv
 
     `python --py`
 
-This project was developed using vscode to continue developing with the IDE update the .vscode/settings.json **python.pythonPath** to the value from the command above
+This project was developed using vscode to continue developing with the IDE update the .vscode/settings.json **python.pythonPath** to the value from the command above.
 
 ## Running tests
 
